@@ -27,14 +27,20 @@ body
 nav {
     display: flex;
     width: 100vw;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0,0,0, 0.25);
     
 }
 
 #nav-left
 {
     display: inline-block;
-    background-color: orange;
+}
+
+.nav-logo
+{
+    height: 80px;
+    padding: 10px 0px;
+    margin-left: 10px;
 }
 
 #nav-right
@@ -60,5 +66,6 @@ nav {
     text-decoration: none;
     margin-left: 50px;
     font-size: 24px;
+    color:white;
     /*height: 100px;*/
 }

@@ -1,0 +1,65 @@
+*{ font-family: Arial, Helvetica, sans-serif; }
+
+body 
+{ 
+    margin: 0px; 
+    background-image: url('./res/img/temp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -300px;
+}
+
+.accessibillity
+{
+    /*padding: 10px 0px;*/
+    background-color: rgb(35,35,35);
+    text-align: center;
+}
+
+.accessibillity-option
+{
+    background-color: lime;
+    border: none;
+    padding: 10px;
+}
+
+
+nav {
+    display: flex;
+    width: 100vw;
+    background-color: rgba(0,0,0, 0.5);
+    
+}
+
+#nav-left
+{
+    display: inline-block;
+    background-color: orange;
+}
+
+#nav-right
+{
+    display: table;
+    height: 100px;
+    margin-left: auto;
+    margin-right: 50px;
+
+}
+
+.nav-align
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100px;
+}
+
+
+
+.nav-links
+{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 24px;
+    /*height: 100px;*/
+}

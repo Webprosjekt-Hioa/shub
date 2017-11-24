@@ -47,6 +47,12 @@ nav {
     height: 80px;
     padding: 10px 0px;
     margin-left: 10px;
+    display: inline-block;
+}
+
+.nav-logo-text
+{
+    display: inline-block; margin-top: auto; margin-bottom: auto; margin-left: 10px;
 }
 
 #nav-right
@@ -96,12 +102,17 @@ nav {
     margin-top: 100px;
 }
 
-.content-more
+.content-more-header
 {
     text-align: center;
     padding: 15px 0px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.content-more
+{
+    padding-top: 20px;
 }
 
 

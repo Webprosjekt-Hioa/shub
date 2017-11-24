@@ -20,17 +20,26 @@ nav
     color:white;
 }
 
+.nav-logo-text
+{
+    color: white;
+}
+
 
 .main-content-left-headline
 {
     color: white;
 }
 
-.content-more
+.content-more-header
 {
     background-color: white;
 }
 
+.content-more
+{
+    background-color: snow;
+}
 
 
 footer

@@ -5,6 +5,11 @@
     background-color: rgb(35,35,35);
 }
 
+.accessibillity-option-a
+{
+    color: white;
+}
+
 nav
 {
     background-color: rgba(0,0,0, 0.25);
@@ -15,6 +20,11 @@ nav
     color:white;
 }
 
+
+.main-content-left-headline
+{
+    color: white;
+}
 
 
 

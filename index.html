@@ -7,8 +7,18 @@
         <link href="color.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <div style="max-height: 100vh; max-width: 100%; overflow:hidden; background-color: black; overflow: hidden; width:100%; position: absolute; top:0px; z-index: -999;">
+            <div class="background-image-cover" style="margin-top:-300px; margin-left: -300px;">
+                <img src=".\res\img\temp.jpg" style="width: 110%; opacity:0.8;" />
+            </div>
+        </div>
+
         <div class="accessibillity">
             <button class="accessibillity-option">Høykontrast</button>
+            <div style="display: inline-flex; margin: 0px 10px; ">
+                <p class="accessibillity-option-a">A</p>
+                <p class="accessibillity-option-a" style="font-size: 26px; line-height: 40px;">A</p>
+            </div>
         </div>
         <nav>
 
@@ -31,8 +41,14 @@
 
         </nav>
 
-        <div>
-            <div style="height: 400px; width: 600px; background-color:orange; margin-right: 50px; margin-left: auto; margin-top: 100px;"></div>
+        <div class="main-content">
+            <div class="main-content-left">
+                <h1 class="main-content-left-headline">Take control of your information</h1>
+            </div>
+
+            <div class="main-content-right" style="height: 400px; width: 600px; /*background-color:orange;*/ ">
+                <img src=".\res\img\Combined.png" style="width:600px;" />
+            </div>
         </div>
 
 
@@ -43,7 +59,7 @@
             <div style="margin-left: auto; margin-right: auto; text-align: center;">
                 <a href="..\..\index.html" style="display: inline-flex; text-align: center; margin-top: 25px;">
                     <p class="footer-lang-a-p">Change langauge</p>
-                    <img style="display: inline-block; height: 25px; width: 25px; padding: 0px 5px;" src="..\..\res\img\en.png" alt="The english flag (press to change language)" />
+                    <img style="display: inline-block; height: 25px; width: 25px; padding: 0px 5px;" src=".\res\img\en.png" alt="The english flag (press to change language)" />
                 </a>
             </div>            
         </footer>

@@ -79,7 +79,7 @@ nav {
 .main-content
 {
     display: flex;
-    height: calc(100vh - 140px);
+    height: calc(100vh - 190px);
 }
 
 .main-content-left
@@ -96,7 +96,13 @@ nav {
     margin-top: 100px;
 }
 
-
+.content-more
+{
+    text-align: center;
+    padding: 15px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
 
 
 
@@ -107,9 +113,28 @@ nav {
     display: inline-block; margin-top: auto; margin-bottom: auto; padding: 0px 5px;
 }
 
+.round-flags
+{
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
 footer
 {
     padding: 0px 10px;
     /*position: absolute;
     top: calc(100vh - 75.5px);*/
+}
+
+.langauge-headline
+{
+    text-align: center;
+}
+
+.language-flag-wrapper
+{
+    display: inline-block;
+    margin: 0px 20px;
 }

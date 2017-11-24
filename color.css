@@ -26,11 +26,19 @@ nav
     color: white;
 }
 
-
+.content-more
+{
+    background-color: white;
+}
 
 
 
 footer
 {
     background-color: rgb(35,35,35);
+}
+
+.langauge-headline
+{
+    color: white;
 }

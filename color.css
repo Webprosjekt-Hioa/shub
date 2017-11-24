@@ -5,9 +5,17 @@
     background-color: rgb(35,35,35);
 }
 
+.accessibillity-option
+{
+    background-color: transparent;
+    color: white;
+    border-bottom-color: white;
+}
+
 .accessibillity-option-a
 {
     color: white;
+    border-bottom-color: white;
 }
 
 nav
@@ -48,6 +56,11 @@ footer
 }
 
 .langauge-headline
+{
+    color: white;
+}
+
+.language-flag-wrapper
 {
     color: white;
 }

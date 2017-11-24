@@ -17,17 +17,21 @@ body
 
 .accessibillity-option
 {
-    background-color: lime;
     border: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
     margin: 0px 10px;
-    padding: 12.5px;
+    padding: 10.5px;
     display: inline-flex;
+    font-size: 14px;
 }
 
 .accessibillity-option-a
 {
     display: inline-flex;
     margin: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
     line-height: 39px;
 }
 
@@ -148,4 +152,5 @@ footer
 {
     display: inline-block;
     margin: 0px 20px;
+    text-decoration: none;
 }

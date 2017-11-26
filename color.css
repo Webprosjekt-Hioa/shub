@@ -33,6 +33,11 @@ nav
     color: white;
 }
 
+.hamburger-line
+{
+    background-color: white;
+}
+
 .accessibillity-option-textSize-message
 {
     background-color: white;
@@ -68,4 +73,11 @@ footer
 .language-flag-wrapper
 {
     color: white;
+}
+
+
+@media screen and (max-width: 687px)
+{
+    .nav-align { background-color: white; }
+    .nav-links { color: black; border-bottom-color: black; }
 }

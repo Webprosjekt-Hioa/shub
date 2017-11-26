@@ -3,8 +3,27 @@
         <title>Student Hub</title>
         <meta charset="utf-8">
         <!--<meta http-equiv="refresh" content="1">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="core.css" rel="stylesheet" type="text/css">
         <link href="color.css" rel="stylesheet" type="text/css">
+        <script>
+            function toggleMenu()
+            {
+                var menu = document.getElementById("nav-items");
+                if (menu != null)
+                {
+                    if (menu.style.display != "block")
+                    {
+                        menu.style.display = "block";
+                    }
+                    else
+                    {
+                        menu.style.display = "none";
+                    }
+                }
+            }
+        </script>
+
     </head>
     <body>
         <div style="max-height: 100vh; max-width: 100%; overflow:hidden; background-color: black; overflow: hidden; width:100%; height:100vh; position: absolute; top:0px; z-index: -999;">
@@ -28,45 +47,56 @@
         <nav>
 
             <div id="nav-left">
-                <div style="height:100px; display: flex; width:300px;">
+                <div class="nav-logo-w">
                     <img class="nav-logo" src=".\res\img\LogoTransparent.png" alt="Student hub logo" />
                     <h1 class="nav-logo-text">Student hub</h1>
                 </div>
             </div>
 
             <div id="nav-right">
-                <div class="nav-align">
+                <a href="#" onclick="toggleMenu();" class="hamburger-button">
+                    <span class="hamburger-line" style="margin-top: 15px;"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </a>
+                <div id="nav-items" class="nav-align">
                     <a href="#" class="nav-links">
-                        <p>Link</p>
+                        <p class="nav-links-text">Home</p>
                     </a>
                     <a href="#" class="nav-links">
-                        <p>Link</p>
+                        <p class="nav-links-text">Current situation</p>
+                    </a>
+                    <a href="#" class="nav-links">
+                        <p class="nav-links-text">Our solution</p>
                     </a>
                 </div>                
             </div>
 
         </nav>
 
+        <div class="content">
+            <div class="main-content">
+                <div class="main-content-left">
+                    <h1 class="main-content-left-headline">Take control of your information</h1>
+                </div>
+
+                <div class="main-content-right" style=" /*background-color:orange;*/ ">
+                    <img class="main-content-consept-art-solution" src=".\res\img\Combined.png" alt="An example of how the solution would look like" />
+                </div>
+            </div>
+
+            <div class="content-more-header">
+                <h3 style="margin:0px;">So what can it do?</h3>
+            </div>
+            <div class="content-more">
+                <div style="text-align: center;">
+                    <img src=".\res\img\Logo.png" style="height: 100px; width: 100px; text-align: center;" alt="Studen hub logo" />
+                </div>
+                <h3 style="text-align: center; padding-bottom: 10px;">Student hub collects all your information into one place</h3>
+            </div>
+        </div>
     
-        <div class="main-content">
-            <div class="main-content-left">
-                <h1 class="main-content-left-headline">Take control of your information</h1>
-            </div>
-
-            <div class="main-content-right" style=" /*background-color:orange;*/ ">
-                <img class="main-content-consept-art-solution" src=".\res\img\Combined.png" />
-            </div>
-        </div>
-
-        <div class="content-more-header">
-            <h3 style="margin:0px;">So what can it do?</h3>
-        </div>
-        <div class="content-more">
-            <div style="text-align: center;">
-                <img src=".\res\img\Logo.png" style="height: 100px; width: 100px; text-align: center;" alt="Studen hub logo" />
-            </div>
-            <h3 style="text-align: center; padding-bottom: 10px;">Student hub collects all your information into one place</h3>
-        </div>
+        
 
 
 

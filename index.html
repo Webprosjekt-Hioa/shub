@@ -5,28 +5,11 @@
         <!--<meta http-equiv="refresh" content="1">-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="core.css" rel="stylesheet" type="text/css">
-        <link href="color.css" rel="stylesheet" type="text/css">
-        <link href="colorH.css" rel="stylesheet" type="text/css">
-        <script>
-            function toggleMenu()
-            {
-                var menu = document.getElementById("nav-items");
-                if (menu != null)
-                {
-                    if (menu.style.display != "block")
-                    {
-                        menu.style.display = "block";
-                    }
-                    else
-                    {
-                        menu.style.display = "none";
-                    }
-                }
-            }
-        </script>
-
+        <link href="color.css" rel="stylesheet" type="text/css" id="style-default">
+        <link href="colorH.css" rel="stylesheet" type="text/css" id="style-contrast">
+        <script type="text/javascript" src="setStyle.js"></script>
     </head>
-    <body>
+    <body onload="initCss();">
         <div style="max-height: 100vh; max-width: 100%; overflow:hidden; background-color: black; overflow: hidden; width:100%; height:100vh; position: absolute; top:0px; z-index: -999;">
             <div class="background-image-cover" class="background-container-wrapper">
                 <img src=".\res\img\temp.jpg" class="background-container-image" alt="A picture of a person holding a smartphone" />
@@ -34,7 +17,7 @@
         </div>
 
         <div class="accessibillity">
-            <button class="accessibillity-option">Høykontrast</button>
+            <button class="accessibillity-option" onclick="adaptPage();">Høykontrast</button>
             <a href="#" class="accessibillity-option-textSize">
                 <p class="accessibillity-option-a">A</p>
                 <p class="accessibillity-option-a" style="font-size: 26px;">A</p>

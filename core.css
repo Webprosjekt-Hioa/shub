@@ -183,8 +183,11 @@ nav {
 {
     text-align: center;
     padding: 15px 0px;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
 
 .content-more

@@ -52,6 +52,8 @@ nav
 .content-more-header
 {
     background-color: white;
+    border-top-color: gray;
+    border-bottom-color: gray;
 }
 
 .content-more

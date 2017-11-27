@@ -193,9 +193,28 @@ nav {
 .content-more
 {
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+.content-items
+{
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+}
 
+.content-items-three
+{
+    width: 300px; height: 300px; display: inline-flex; margin: 0px 25px;
+}
+
+.content-items-three-p
+{
+    padding-top: 10px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin: 20px;
+}
 
 
 

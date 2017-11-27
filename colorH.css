@@ -17,6 +17,11 @@ nav
     padding: 0px 10px;
 }
 
+.accessibillity
+{
+    background-color: black;
+}
+
 .accessibillity-option
 {
     background-color: transparent;
@@ -42,8 +47,8 @@ nav
 {
     color: #FFB833;
     background-color: rgba(35, 35, 35, 1);
-    border-top: 1px solid #FFB833;
-    border-bottom: 1px solid #FFB833;
+    border-top-color: #FFB833;
+    border-bottom-color: #FFB833;
 }
 
 .content-more

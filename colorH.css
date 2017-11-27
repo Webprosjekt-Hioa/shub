@@ -22,6 +22,12 @@ nav
     background-color: black;
 }
 
+.accessibillity-option-textSize-message
+{
+    background-color: black;
+    color: #FFB833;
+}
+
 .accessibillity-option
 {
     background-color: transparent;

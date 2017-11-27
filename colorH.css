@@ -42,7 +42,8 @@ nav
 {
     color: #FFB833;
     background-color: rgba(35, 35, 35, 1);
-    border: 1px solid #FFB833;
+    border-top: 1px solid #FFB833;
+    border-bottom: 1px solid #FFB833;
 }
 
 .content-more
@@ -54,6 +55,16 @@ nav
 .langauge-headline
 {
     color: #FFB833;
+}
+
+.language-flag-wrapper
+{
+    border: 1px solid #FFB833;
+}
+
+footer 
+{
+    background-color: black;
 }
 
 /* CONTRAST */

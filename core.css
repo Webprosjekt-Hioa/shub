@@ -212,8 +212,16 @@ nav {
 
 .content-items-three
 {
-    width: 300px; height: 300px; display: inline-flex; margin: 0px 25px;
+    width: 300px; /*height: 300px;*/ display: inline-flex; margin: 0px 25px;
 }
+
+.content-items-three-img
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
 
 .content-items-three-p
 {
@@ -227,7 +235,7 @@ nav {
 
 .footer-lang-a-p
 {
-    display: inline-block; margin-top: auto; margin-bottom: auto; padding: 0px 5px;
+    display: block; margin-top: auto; margin-bottom: auto; padding: 0px 5px;
 }
 
 .round-flags

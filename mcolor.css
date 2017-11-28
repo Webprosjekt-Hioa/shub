@@ -89,12 +89,15 @@ footer
 
 @media screen and (max-width: 687px)
 {
-    .nav-align { background-color: white; }
+    nav {
+        background-color: rgb(50,50,50);
+    }
+    .nav-align { border-top: 1px solid black; }
     .nav-links 
     { 
         display: block;
-        color: black; 
-        border-bottom-color: black; 
+        /*color: black; */
+        border-bottom-color: white; 
         margin-left: 0px;
         padding: 20px;
     }

@@ -41,3 +41,15 @@ function toggleMenu()
         }
     }
 }
+
+function cleanup()
+{
+    var maxMobileSize = 687;
+    var currentWidth = document.body.clientWidth;
+
+    if (currentWidth > maxMobileSize)
+    {
+        document.getElementById("nav-items").style.display = null;
+    }
+
+}

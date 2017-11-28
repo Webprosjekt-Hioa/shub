@@ -94,6 +94,19 @@ footer
     background-color: black;
 }
 
+@media screen and (max-width: 687px)
+{
+    /*.nav-align { background-color: white; }*/
+    .nav-links { 
+        background-color: black;
+        color: #FFB833; 
+        border:none;
+        border-bottom: 1px solid #FFB833;
+        margin-left: 0px;
+        padding: 20px;
+    }
+}
+
 /* CONTRAST */
 
 .language-flag-wrapper:focus, 

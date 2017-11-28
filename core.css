@@ -414,6 +414,12 @@ footer
     .nav-align { z-index: 999; display: none; height: auto; width: 100%; text-align: center; }
     .nav-links { z-index: 999; display: block; margin-left: auto; padding-top: 5px; padding-bottom: 5px; border-bottom-style:  solid; border-bottom-width: 1px; }
     
-    .content { z-index: -1; padding-top: 50px; }
+    .content { z-index: -1; }
+
+    .main-content
+    {
+        height: calc(100% - 233px);
+    }
+
 
 }

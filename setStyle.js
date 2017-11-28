@@ -1,7 +1,7 @@
-function initCss()
+/*function initCss()
 {
     document.getElementById("style-contrast").disabled = true;
-}
+}*/
 
 function adaptPage()
 {

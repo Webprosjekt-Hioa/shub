@@ -233,6 +233,17 @@ nav {
 
 
 
+.content-problem-article
+{
+    width: 50vw;
+    /*background-color: purple;*/
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
 .footer-lang-a-p
 {
     display: block; margin-top: auto; margin-bottom: auto; padding: 0px 5px;

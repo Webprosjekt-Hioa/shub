@@ -1,0 +1,94 @@
+
+
+.accessibillity
+{
+    background-color: rgb(35,35,35);
+}
+
+.accessibillity-option
+{
+    background-color: transparent;
+    color: white;
+    border-bottom-color: white;
+}
+
+.accessibillity-option-a
+{
+    color: white;
+    border-bottom-color: white;
+}
+
+nav
+{
+    background-color: rgba(0,0,0, 0.25);
+}
+
+.nav-links
+{
+    color:white;
+}
+
+.nav-logo-text
+{
+    color: white;
+}
+
+.hamburger-line
+{
+    background-color: white;
+}
+
+.accessibillity-option-textSize-message
+{
+    background-color: white;
+}
+
+
+.main-content-left-headline
+{
+    color: white;
+}
+
+.content-more-header
+{
+    background-color: white;
+    border-top-color: gray;
+    border-bottom-color: gray;
+}
+
+.content-more
+{
+    background-color: rgb(250, 250, 250);
+}
+
+.content-items
+{
+    background-color: white;
+}
+
+.content-items-three-p
+{
+    border-top-color: gray;
+}
+
+footer
+{
+    background-color: rgb(35,35,35);
+}
+
+.langauge-headline
+{
+    color: white;
+}
+
+.language-flag-wrapper
+{
+    color: white;
+}
+
+
+@media screen and (max-width: 687px)
+{
+    .nav-align { background-color: white; }
+    .nav-links { color: black; border-bottom-color: black; }
+}

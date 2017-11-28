@@ -3,23 +3,30 @@
 body 
 { 
     margin: 0px; 
-    /*background-image: url('./res/img/temp.jpg');
+    /*background-image: url('./res/img/main-re.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -300px;*/
+    /*background-position-y: -200px;*/
 }
 
-
-.background-container-wrapper
+.background-container
 {
-    margin-top:-300px; margin-left: -300px;
+    position: absolute;
+    z-index: -999;
 }
 
-.background-container-image
+.background-container-w
 {
-    width: 100%; opacity:0.8;
+
 }
 
+.background-container-w-image
+{   
+    min-height: calc(100vh - 85px);
+    height: auto;
+    width: 100%;
+    margin-top: -175px;
+}
 
 
 .accessibillity

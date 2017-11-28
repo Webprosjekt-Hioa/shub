@@ -61,6 +61,11 @@ nav
     background-color: snow;
 }
 
+.content-items
+{
+    background-color: white;
+}
+
 .content-items-three-p
 {
     border-top-color: gray;

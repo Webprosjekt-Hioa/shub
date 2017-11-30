@@ -1,0 +1,175 @@
+<html lang="no">
+    <head>
+        <title>Student Hub</title>
+        <meta charset="utf-8">
+        <!--<meta http-equiv="refresh" content="1">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="core.css" rel="stylesheet" type="text/css">
+        <link href="mcolor.css" rel="stylesheet" type="text/css" id="style-default">
+        <link disabled="" href="colorH.css" rel="stylesheet" type="text/css" id="style-contrast">
+        <script type="text/javascript" src="setStyle.js"></script>
+    </head>
+    <body onresize="cleanup();">
+        
+        <div class="background-container">
+            <div class="background-container-w">
+                <img class="background-container-w-image" src=".\res\img\main.png" alt="Background image of a person holding an smartphone" />
+            </div>
+        </div>
+
+
+        <div class="accessibillity">
+            <button class="accessibillity-option" onclick="adaptPage();">Høykontrast</button>
+            <a href="#" class="accessibillity-option-textSize">
+                <p class="accessibillity-option-a">A</p>
+                <p class="accessibillity-option-a" style="font-size: 26px;">A</p>
+            </a>
+            <div class="accessibillity-option-textSize-message">
+                Hold Ctrl-tasten nede (Cmd-tasten på Mac).
+                <br />
+                Trykk på + for å forstørre eller - for å forminske.
+            </div>
+        </div>
+        <nav>
+
+            <div id="nav-left">
+                <div class="nav-logo-w">
+                    <img class="nav-logo" src=".\res\img\LogoTransparent.png" alt="Student hub logo" />
+                    <h1 class="nav-logo-text">Student hub</h1>
+                </div>
+            </div>
+
+            <div id="nav-right">
+                <a href="#" onclick="toggleMenu();" class="hamburger-button">
+                    <span class="hamburger-line" style="margin-top: 15px;"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </a>
+                <div id="nav-items" class="nav-align">
+                    <a href=".\index_no.html" class="nav-links">
+                        <p class="nav-links-text">Hjem</p>
+                    </a>
+                    <a href=".\problem_no.html" class="nav-links">
+                        <p class="nav-links-text">Nåværende situasjon</p>
+                    </a>
+                    <a href=".\solution_no.html" class="nav-links">
+                        <p class="nav-links-text">Vår løsning</p>
+                    </a>
+                </div>                
+            </div>
+
+        </nav>
+
+        <div class="content">
+            <div class="main-content">
+                <div class="main-content-left">
+                    <h1 class="main-content-left-headline">Ta kontroll over informasjonen din</h1>
+                </div>
+
+                <div class="main-content-right" style=" /*background-color:orange;*/ ">
+                    <img class="main-content-consept-art-solution" src=".\res\img\Combined.png" alt="An example of how the solution would look like" />
+                </div>
+            </div>
+
+            <div class="content-more-header">
+                <h3 style="margin:0px;">Så hva kan den gjøre?</h3>
+            </div>
+            <div class="content-more">
+                <div style="text-align: center;">
+                    <img src=".\res\img\Logo.png" style="height: 100px; width: 100px; text-align: center;" alt="Studen hub logo" />
+                </div>
+                <h3 style="text-align: center; padding-bottom: 10px;">Student hub samler all informasjon i et sted</h3>
+            </div>
+
+
+            <div class="content-items">
+                <div class="content-items-three" style="/*background-color: purple;*/">
+                    <div>
+                        <img class="content-items-three-img" src=".\res\img\Icon_01.png"/>
+                        <p class="content-items-three-p">
+                            Studenthub samler informasjon fra flere informasjonskanaler. Informasjonen den får vil bli sortert og prioritert baser på frister, viktighet og brukers egenvalgte preferanser.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-items-three" style="/*background-color: green;*/">
+                    <div>
+                        <img class="content-items-three-img" src=".\res\img\Icon_02.png"/>
+                        <p class="content-items-three-p">
+                            Du vil få en notifikasjon når ny informasjon blir lagt ut, når frister nærmer seg og når du får en ny student e-post. Studenhub vil også gi deg beskjed når en prøve er rettet eller når en ny oppgave blir lagt ut.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-items-three" style="/*background-color: orange;*/">
+                    <div>
+                        <img class="content-items-three-img" src=".\res\img\Icon_03.png"/>
+                        <p class="content-items-three-p">
+                            Informasjonen vil vises på en intuitiv måte optimalisert for både visning på pc og mobile enheter ved bruk av responsiv design. Du vil få en effektiv og tydelig oversikt over skolens informasjon og din egen fremgang. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    
+        
+
+
+
+
+        <footer>
+            <div style="padding: 10px 0px 10px 0px;">
+                <h3 class="langauge-headline">Velg ditt språk</h3>
+                <div style="margin-left: auto; margin-right: auto; text-align: center;">
+                <a href="#" class="language-flag-wrapper">
+                    <div>
+                        <img class="round-flags" src=".\res\img\en.png" alt="The flag og The United Kingdom" />
+                        <p>English</p>
+                    </div>
+                </a>
+                <a href="#" class="language-flag-wrapper">
+                    <div>
+                        <img class="round-flags" src=".\res\img\no.png" alt="The flag of Norway" />
+                        <p>Norsk</p>
+                    </div>
+                </a>
+                <a href="#" class="language-flag-wrapper">
+                    <div>
+                        <img class="round-flags" src=".\res\img\de.png" alt="The German flag" />
+                        <p>German</p>
+                    </div>
+                </a>
+                <!--<a href="#" class="language-flag-wrapper">
+                    <div>
+                        <img class="round-flags" src=".\res\img\es.png" alt="The Spanish flag" />
+                        <p>Spanish</p>
+                    </div>
+                </a>
+                <a href="#" class="language-flag-wrapper">
+                    <div>
+                        <img class="round-flags" src=".\res\img\fr.png" alt="The French flag" />
+                        <p>French</p>
+                    </div>
+                </a>
+                <a href="#" class="language-flag-wrapper">
+                    <div>
+                        <img class="round-flags" src=".\res\img\nl.png" alt="The Dutch flag" />
+                        <p>Dutch</p>
+                    </div>
+                </a>
+                <a href="#" class="language-flag-wrapper">
+                    <div>
+                        <img class="round-flags" src=".\res\img\pl.png" alt="The Polish flag" />
+                        <p>Polish</p>
+                    </div>
+                </a>-->
+                </div>
+            </div>
+     
+        </footer>
+    </body>
+
+</html>

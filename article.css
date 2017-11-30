@@ -220,6 +220,16 @@ nav {
 }
 
 
+.article-w-image-right
+{
+    margin-right: 15px;
+}
+
+.article-w-image-left
+{
+    margin-left: 15px;
+}
+
 .article-w-userimg
 {
     height: 150px; width: 150px; border-radius: 50%; margin-top: auto; margin-bottom: auto;
@@ -315,6 +325,19 @@ nav {
     {
         display: block;
     }
+
+    .article-w-image-right
+    {
+        margin-right: auto;
+    }
+    
+    .article-w-image-left
+    {
+        margin-left: auto;
+    }
+
+
+
 
 
 }

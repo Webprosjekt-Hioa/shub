@@ -330,6 +330,13 @@ footer
     {   
         margin-left: -10%;
     }
+
+    .main-content-left-headline
+    {
+        font-size: 46px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     
 }
 
@@ -406,6 +413,13 @@ footer
     .main-content
     {
         height: calc(100% - 233px);
+    }
+
+    .main-content-left-headline
+    {
+        font-size: 38px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
 

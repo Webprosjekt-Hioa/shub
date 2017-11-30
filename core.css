@@ -160,6 +160,8 @@ nav {
 
 
 
+/* [Index.html] */
+
 .main-content
 {
     display: flex;
@@ -237,17 +239,7 @@ nav {
 }
 
 
-
-.content-problem-article
-{
-    width: 50vw;
-    /*background-color: purple;*/
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
+/* [Index.html - End] */
 
 .footer-lang-a-p
 {
@@ -281,6 +273,8 @@ footer
     text-decoration: none;
 }
 
+
+
 @media screen and (max-width: 1500px)
 {
     .background-container-w-image
@@ -298,7 +292,6 @@ footer
     }
     
 }
-
 
 @media screen and (max-width: 1000px)
 {
@@ -321,7 +314,6 @@ footer
     }
 }
 
-
 @media screen and (max-width: 890px)
 {
     /* MAKE NAV MOBILE */
@@ -339,12 +331,6 @@ footer
     }
     
 }
-
-
-
-
-
-
 
 @media screen and (max-width: 750px)
 {
@@ -421,5 +407,53 @@ footer
         height: calc(100% - 233px);
     }
 
+
+
+}
+
+
+/* [problem.html - start] */
+
+.content-problem
+{
+    margin-bottom: 25px;
+}
+
+
+.content-problem-article
+{
+    padding: 0px 25px 25px 25px;
+    width: 40vw;
+    /*background-color: purple;*/
+    box-shadow: 0px 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    
+}
+
+.article-w
+{
+    padding: 25px 0px;
+}
+
+
+.article-chart-w
+{
+   /* background-color: purple;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-chart-w-img
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.article-w-p
+{
 
 }

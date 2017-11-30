@@ -59,5 +59,29 @@ nav
 .c-behind3
 {
     color: white;
-    background-color: rgb(56, 56, 56);
+    background-color: #477190;
+}
+
+.c-behind4
+{
+    color: white;
+    background-color: #2B475A;
+}
+
+.link-buttons
+{
+    text-align: center;
+    display: block;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    max-width: 100px;
+    text-decoration: none;
+}
+
+.link-buttons:hover, .link-buttons:focus
+{
+    background-color: #477190;
+    
 }

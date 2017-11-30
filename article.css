@@ -172,8 +172,6 @@ nav {
 
 .content-article
 {
-    padding: 0px 25px 25px 25px;
-    width: 40vw;
     /*background-color: purple;*/
     margin-left: auto;
     margin-right: auto;
@@ -188,7 +186,10 @@ nav {
 
 .article-w
 {
-    padding: 25px 0px;
+    padding: 30px;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -209,9 +210,9 @@ nav {
 
 .article-w-p
 {
-    width: 30vw;
+   /* width: 30vw;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
 }
 
 

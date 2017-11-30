@@ -34,9 +34,6 @@ nav
 }
 
 
-
-
-
 .hamburger-line
 {
     background-color: black;
@@ -45,4 +42,22 @@ nav
 .accessibillity-option-textSize-message
 {
     background-color: white;
+}
+
+/* [Article grading colors] */
+
+.c-behind1
+{
+    background-color: white;
+}
+
+.c-behind2
+{
+    background-color: #f7f7f7;
+}
+
+.c-behind3
+{
+    color: white;
+    background-color: rgb(56, 56, 56);
 }

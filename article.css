@@ -214,6 +214,50 @@ nav {
     margin-right: auto;*/
 }
 
+.wImage
+{
+    display: flex;
+}
+
+
+.article-w-userimg
+{
+    height: 150px; width: 150px; border-radius: 50%; margin-top: auto; margin-bottom: auto;
+}
+
+.article-w-userimg-left
+{
+    display: block;
+}
+
+.article-w-userimg-right
+{
+    display: none;
+}
+
+
+@media screen and (max-width: 1500px)
+{
+    .article-w
+    {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .article-w
+    {
+        width: 80vw;
+    }
+}
+
+
+
+
+
+
+
 
 
 
@@ -250,6 +294,27 @@ nav {
         height: calc(100% - 233px);
     }
 
+    .wImage
+    {
+        display: block;
+    }
+
+    .article-w-userimg
+    {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .article-w-userimg-left
+    {
+        display: none;
+    }
+
+    .article-w-userimg-right
+    {
+        display: block;
+    }
 
 
 }

@@ -272,6 +272,14 @@ nav {
     }
 }
 
+@media screen and (max-width: 750px)
+{
+    .accessibillity-option-textSize
+    {
+        display: none;
+    }
+}
+
 
 
 

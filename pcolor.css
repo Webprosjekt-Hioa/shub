@@ -85,3 +85,19 @@ nav
     background-color: #477190;
     
 }
+
+@media screen and (max-width: 687px)
+{
+    nav {
+        background-color: white;
+    }
+    .nav-align { border-top: 1px solid black; }
+    .nav-links 
+    { 
+        display: block;
+        /*color: black; */
+        border-bottom-color: gray; 
+        margin-left: 0px;
+        padding: 20px;
+    }
+}

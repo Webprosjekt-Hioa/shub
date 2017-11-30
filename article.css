@@ -156,7 +156,8 @@ nav {
     left: 50%;
 }
 
-.accessibillity-option-textSize:hover + .accessibillity-option-textSize-message
+.accessibillity-option-textSize:hover + .accessibillity-option-textSize-message, 
+.accessibillity-option-textSize:focus + .accessibillity-option-textSize-message
 {
     display: block;
 }
@@ -208,7 +209,9 @@ nav {
 
 .article-w-p
 {
-
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

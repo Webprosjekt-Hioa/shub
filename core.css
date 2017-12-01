@@ -242,39 +242,6 @@ nav {
 
 /* [Index.html - End] */
 
-.footer-lang-a-p
-{
-    display: block; margin-top: auto; margin-bottom: auto; padding: 0px 5px;
-}
-
-.round-flags
-{
-    overflow: hidden;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-}
-
-footer
-{
-    padding: 0px 10px;
-    /*position: absolute;
-    top: calc(100vh - 75.5px);*/
-}
-
-.langauge-headline
-{
-    text-align: center;
-}
-
-.language-flag-wrapper
-{
-    display: inline-block;
-    margin: 0px 20px;
-    text-decoration: none;
-}
-
-
 
 @media screen and (max-width: 1500px)
 {

@@ -117,3 +117,29 @@ footer
 {
     outline: #00f solid thick
 }
+
+/*  [ Non index ]  */
+
+.short-text-top
+{
+    background-color:#FFB833;
+    color: black;
+}
+
+.content-problem, .content
+{
+    background-color: #FFB833;
+}
+
+.c-behind3 
+{
+    background-color:rgba(35, 35, 35, 1); 
+    color: #FFB833;
+}
+
+.c-behind4
+{
+    background-color: black;
+    color: #FFB833;
+}
+

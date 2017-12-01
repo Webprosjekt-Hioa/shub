@@ -5,10 +5,10 @@
             <!--<meta http-equiv="refresh" content="1">-->
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-            <link href="article.css" rel="stylesheet" type="text/css">
-            <link href="pcolor.css" rel="stylesheet" type="text/css" id="style-default">
-            <link disabled="" href="colorH.css" rel="stylesheet" type="text/css" id="style-contrast">
-            <script type="text/javascript" src="setStyle.js"></script>
+            <link href="..\..\article.css" rel="stylesheet" type="text/css">
+            <link href="..\..\pcolor.css" rel="stylesheet" type="text/css" id="style-default">
+            <link disabled="" href="..\..\colorH.css" rel="stylesheet" type="text/css" id="style-contrast">
+            <script type="text/javascript" src="..\..\setStyle.js"></script>
         </head>
         <body onresize="cleanup();">
     
@@ -19,8 +19,8 @@
             </div>-->
     
             <div class="accessibillity">
-                <button class="accessibillity-option" onclick="adaptPage();">Høykontrast</button>
-                <a href="#" class="accessibillity-option-textSize">
+                <button class="accessibillity-option" name="High contrast" onclick="adaptPage();">Høykontrast</button>
+                <a href="#" name="Size Increase" class="accessibillity-option-textSize">
                     <p class="accessibillity-option-a">A</p>
                     <p class="accessibillity-option-a" style="font-size: 26px;">A</p>
                 </a>
@@ -33,12 +33,12 @@
             <nav>
                 <div id="nav-left">
                     <div class="nav-logo-w">
-                        <img class="nav-logo" src=".\res\img\Logo.png" alt="Student hub logo" />
+                        <img class="nav-logo" src="..\..\res\img\Logo.png" alt="Student hub logo" />
                         <h1 class="nav-logo-text">Student hub</h1>
                     </div>
                 </div>
                 <div id="nav-right">
-                    <a href="#" onclick="toggleMenu();" class="hamburger-button">
+                    <a href="#" title="Open link button" onclick="toggleMenu();" class="hamburger-button">
                         <span class="hamburger-line" style="margin-top: 15px;"></span>
                         <span class="hamburger-line"></span>
                         <span class="hamburger-line"></span>
@@ -66,7 +66,7 @@
                         <p>
                             The solution that will solve this problem is called Studenthub. Its main functionality is to gather data from the different information channels in one place.
                         </p>
-                        <img style="width: 50vw; display: flex; margin: 0px auto;" src=".\res\img\Notification_device_art.png" />
+                        <img style="width: 50vw; display: flex; margin: 0px auto;" src="..\..\res\img\Notification_device_art.png" alt="A concept art of how the solution would look like on laptop and mobile devices" />
 
                         <p>
                             The interface consists of a user-friendly menu and a news feed.
@@ -79,7 +79,7 @@
                         </p>
                     </div>
                     <div class="article-w wImage">
-                        <img class="article-w-userimg article-w-userimg-left" src=".\res\img\Olav.png" />                            
+                        <img class="article-w-userimg article-w-userimg-left" src="..\..\res\img\Olav.png" alt="A image of a user" />                            
                         <div class="article-w-image-left">
                             <h2 style="font-weight: lighter;">
                                 Accessible to all users 
@@ -91,7 +91,7 @@
                                 These configurations allow equal access to all students, making sure none are unprivileged using the website. 
                             </p>
                         </div>
-                        <img class="article-w-userimg article-w-userimg-right" src=".\res\img\Olav.png" />                            
+                        <img class="article-w-userimg article-w-userimg-right" src="..\..\res\img\Olav.png" alt="A image of a user" />                            
                         
                     </div>
                     <div class="article-w wImage">
@@ -107,7 +107,7 @@
                                 This will in total improve the students’ impression of the school and make the surrounding environment more welcoming.
                             </p>
                         </div>
-                        <img class="article-w-userimg"  src=".\res\img\Alex.png" />
+                        <img class="article-w-userimg"  src="..\..\res\img\Alex.png" alt="A image of a user" />
                     </div>
                 </div>
             </div>

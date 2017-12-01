@@ -5,10 +5,10 @@
         <!--<meta http-equiv="refresh" content="1">-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-        <link href="article.css" rel="stylesheet" type="text/css">
-        <link href="pcolor.css" rel="stylesheet" type="text/css" id="style-default">
-        <link disabled="" href="colorH.css" rel="stylesheet" type="text/css" id="style-contrast">
-        <script type="text/javascript" src="setStyle.js"></script>
+        <link href="..\..\article.css" rel="stylesheet" type="text/css">
+        <link href="..\..\pcolor.css" rel="stylesheet" type="text/css" id="style-default">
+        <link disabled="" href="..\..\colorH.css" rel="stylesheet" type="text/css" id="style-contrast">
+        <script type="text/javascript" src="..\..\setStyle.js"></script>
     </head>
     <body onresize="cleanup();">
 
@@ -19,8 +19,8 @@
         </div>-->
 
         <div class="accessibillity">
-            <button class="accessibillity-option" onclick="adaptPage();">Høykontrast</button>
-            <a href="#" class="accessibillity-option-textSize">
+            <button class="accessibillity-option" name="High contrast" onclick="adaptPage();">Høykontrast</button>
+            <a href="#" name="Size Increase" class="accessibillity-option-textSize">
                 <p class="accessibillity-option-a">A</p>
                 <p class="accessibillity-option-a" style="font-size: 26px;">A</p>
             </a>
@@ -33,12 +33,12 @@
         <nav>
             <div id="nav-left">
                 <div class="nav-logo-w">
-                    <img class="nav-logo" src=".\res\img\Logo.png" alt="Student hub logo" />
+                    <img class="nav-logo" src="..\..\res\img\Logo.png" alt="Student hub logo" />
                     <h1 class="nav-logo-text">Student hub</h1>
                 </div>
             </div>
             <div id="nav-right">
-                <a href="#" onclick="toggleMenu();" class="hamburger-button">
+                <a href="#" title="Open link button"  onclick="toggleMenu();" class="hamburger-button">
                     <span class="hamburger-line" style="margin-top: 15px;"></span>
                     <span class="hamburger-line"></span>
                     <span class="hamburger-line"></span>
@@ -71,7 +71,7 @@
                     
                         <div class="article-chart-w">
                             <span class="article-chart-w-img" style="border-radius: 0px 500px 200px; position: absolute; background-color: purple; /*height: 325px;*/ width: 30%;"></span>
-                            <img class="article-chart-w-img" style="border-radius: 0px 500px 200px;" src=".\res\img\annoyed.png" />
+                            <img class="article-chart-w-img" style="border-radius: 0px 500px 200px;" src="..\..\res\img\annoyed.png" alt="A image of an user who is annoyed of the number of information channels" />
                         </div>
                     </div>
 
@@ -91,7 +91,7 @@
                     <div class="c-behind1">
                         <div class="article-w"> 
                             <div class="article-chart-w">
-                                <img class="article-chart-w-img" src=".\res\chart\eng1.png" />
+                                <img class="article-chart-w-img" src="..\..\res\chart\eng1.png" alt="A chart that is showing the statistics of the grades from the people who answered the survey"  />
                             </div>
                             <p class="article-w-p">
                                 In the graph above we see the results of which year the different students were attending. The idea about this question, is to map out how many students form each year that was attending the survey. As you can see, it was a big group of students from year one to three, but a minimal group of master students.  
@@ -102,7 +102,7 @@
                     <div class="c-behind2">
                         <div class="article-w">
                             <div class="article-chart-w">
-                                <img class="article-chart-w-img" src=".\res\chart\eng2.png" />
+                                <img class="article-chart-w-img" src="..\..\res\chart\eng2.png" alt="A chart that is showing the different information channels that the students are using" />
                             </div>
                             <p class="article-w-p">
                                 This graph shows which of the different information channels the students are using. We can see that the three main information channels are Fronter, stud.hioa.no and facebook. 96% of people asked use Fronter, while over 50% use Facebook, student mail and stud.hioa. All of the asked students used more than one channel, with the average number of channel being three. However, as can be seen on the pie chart below, most of the students think that it’s ineffective with this many channels of information.
@@ -114,7 +114,7 @@
                     <div class="c-behind1">
                         <div class="article-w">
                             <div class="article-chart-w">
-                                <img class="article-chart-w-img" src=".\res\chart\eng3.png" />                                
+                                <img class="article-chart-w-img" src="..\..\res\chart\eng3.png" alt="A chart that is showing the studens perception of the diffictuly to get critical information" />                                
                             </div>
                             <p class="article-w-p">
                                 This pie chart shows how many of the students who think it’s hard to find necessary information about due dates, obligatory tasks and status on the essays handed in. As we can see from this pie chart, 61% of the students think that it’s hard to find the information they need.  
@@ -125,7 +125,7 @@
                     <div class="c-behind2">
                         <div class="article-w">
                             <div class="article-chart-w">
-                                <img class="article-chart-w-img" src=".\res\chart\eng4.png" />                                
+                                <img class="article-chart-w-img" src="..\..\res\chart\eng4.png" alt="A chart representing the amount of students who say that they are missing information du to the number of information channels" />                                
                             </div>
                             <p class="article-w-p">
                                 As this pie chart shows, many of the students miss important information that they need to know about obligatory tasks, classroom changes and more because of the many information channels.
@@ -137,7 +137,7 @@
                     <div class="c-behind1">
                         <div class="article-w">
                             <div class="article-chart-w">
-                                <img class="article-chart-w-img" src=".\res\chart\eng5.png" />                                
+                                <img class="article-chart-w-img" src="..\..\res\chart\eng5.png" alt="A char that represents the students thought of an main site which collects all necessary information regarding their studies" />                                
                             </div>
                             <p class="article-w-p">
                                 This pie chart shows that a whopping 99% of the students would use a website that gathered all the information in one site, if this solution was provided too them. This shows that there is a market for our solution 

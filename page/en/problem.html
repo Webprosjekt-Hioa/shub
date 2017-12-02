@@ -13,7 +13,7 @@
         
         <script type="text/javascript" src="..\..\setStyle.js"></script>
     </head>
-    <body onresize="cleanup();">
+    <body onresize="cleanup();" onload="disableHC();">
 
         <!--<div class="background-container">
             <div class="background-container-w">
@@ -198,6 +198,9 @@
                 </div>
          
             </footer>
+            <script>
+                disableHC();
+            </script>
 
     </body>
 </html>

@@ -53,3 +53,14 @@ function cleanup()
     }
 
 }
+
+function disableHC()
+{
+    var browser = navigator.userAgent.indexOf("Firefox");
+    if (browser !== -1)
+    {
+        var highcontrast = document.getElementById("style-contrast");
+        highcontrast.disabled = true;
+    }
+
+}
